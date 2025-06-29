@@ -1,0 +1,105 @@
+# Python/Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Secrets
+.envvar
+
+# PID files
+*.pid
+.django.pid
+.react.pid
+.celery.beat.pid
+.celery.worker.pid
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Node.js
+node_modules/
+# Specifically exclude cache files in node_modules
+**/node_modules/.cache/
+**/.cache/
+**/*.pack
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# React
+/Poly-Agent_frontend/build
+/Poly-Agent_frontend/.env.local
+/Poly-Agent_frontend/.env.development.local
+/Poly-Agent_frontend/.env.test.local
+/Poly-Agent_frontend/.env.production.local
+/Poly-Agent_frontend/npm-debug.log*
+/Poly-Agent_frontend/yarn-debug.log*
+/Poly-Agent_frontend/yarn-error.log*
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.pytest_cache/
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.sqlite3
+poly_agent_users.db
+
+# Logs
+logs/
+*.log
+
+# Local development
+.python-version
+.node-version

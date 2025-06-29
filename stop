@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Stop Django backend
+if [ -f .django.pid ]; then
+    echo "Stopping Django backend..."
+    kill $(cat .django.pid) 2>/dev/null || true
+    rm .django.pid
+fi
+
+# Stop React frontend
+if [ -f .react.pid ]; then
+    echo "Stopping React frontend..."
+    kill $(cat .react.pid) 2>/dev/null || true
+    rm .react.pid
+fi
+
+echo "All servers have been stopped." 

@@ -1,0 +1,67 @@
+/* App.css - Main application styles */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Not Found Page */
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.not-found h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #4285f4;
+}
+
+.not-found p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Temporary placeholder styles */
+.placeholder-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+/* Page Transition Styles */
+.page-transition-enter {
+  opacity: 0;
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.page-transition-exit {
+  opacity: 1;
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.route-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} 
